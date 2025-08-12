@@ -301,15 +301,5 @@ def gerar_grafico_valor_vida_cliente(dados):
 # ... (outras funções de geração de gráficos)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
-'''
-⚠️ Atenção:
-Adicione server = app.server (exigido pelo Render/Heroku).
+    app.run_server(host="0.0.0.0", port=10000, debug=True)
 
-# Server para deploy (importante!)
-server = app.server
-
-if __name__ == "__main__":
-    app.run_server(debug=True)  # Local
-
-    '''
