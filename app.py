@@ -301,5 +301,6 @@ def gerar_grafico_valor_vida_cliente(dados):
 # ... (outras funções de geração de gráficos)
 
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=10000, debug=True)
+    app.run(host="0.0.0.0", port=10000, debug=True)
+
 
