@@ -106,7 +106,7 @@ app.layout = dbc.Container([
     
     # Rodapé
     dbc.Row([
-        dbc.Col(html.P("© 2023 TelecomX - Todos os direitos reservados | Painel atualizado diariamente", 
+        dbc.Col(html.P("© 2025 TelecomX - Todos os direitos reservados | Painel atualizado diariamente", 
                       className="text-center text-muted small mt-4"), width=12)
     ])
 ], fluid=True, style={"backgroundColor": FUNDO})
